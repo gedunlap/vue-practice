@@ -17,6 +17,12 @@
 
         <h2 v-show="show">You found me!</h2>
 
+        <h3 v-for="num in arr">{{num}}</h3>
+
+        <input type="text" v-model="input">
+        
+        <button v-on:click="logIt">Log It</button>
+
 
     </div>
 </body>
